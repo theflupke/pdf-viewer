@@ -6,7 +6,9 @@ $.getJSON("./config.json", function( config ) {
         "soundEnable": false,
         "enableDownload": false,
         "hideControls": "share,more",
-        stiffness: 5,
+        "stiffness": 5,
+        "height": '100%'
+
     };
     var flipBook = $(".book").flipBook(source, options);
 });
