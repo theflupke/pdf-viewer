@@ -1,4 +1,4 @@
-$.getJSON("../config.json", function( config ) {
+$.getJSON("./config.json", function( config ) {
     document.title = config.pageTitle;
 
     var source = config.pdf;
